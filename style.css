@@ -1,8 +1,65 @@
 *{
-    height: 1200px;
-    width: 600px;
+    height: 200px;
+    width: 200px;
+
 }
 
-h1{
-    text-align: center;
+
+
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+    
+}
+
+.item{
+    background: rgb(74, 60, 92);
+	height: 300px;
+	width: 200px;
+	border-radius: 20px;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	border: none;
+    width: 800px;
+	
+    
+}
+
+h1 {
+	font-family: 'Chakra Petch', sans-serif;
+	text-align: center;
+	margin: 30px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	
+}
+
+body{
+    color: #09090a;
+}
+
+h2{
+	text-align: center;
 }
