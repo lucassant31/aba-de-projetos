@@ -28,14 +28,18 @@
 }
 
 .item{
-    background: rgb(114, 106, 105);
+    background: rgb(74, 60, 92);
+	height: 300px;
+	width: 200px;
+	border-radius: 20px;
 }
 
 .container {
 	max-width: 600px;
 	margin: 0 auto;
-	border: 2px solid #ccc;
+	border: none;
     width: 800px;
+	
     
 }
 
@@ -52,5 +56,5 @@ body {
 }
 
 body{
-    color: #333;
+    color: #09090a;
 }
